@@ -1,0 +1,37 @@
+[
+    {
+        "room": "A101",
+        "building": "Block A",
+        "floor": 1,
+        "capacity": 40,
+        "hasProjector": true
+    },
+    {
+        "room": "A205",
+        "building": "Block A",
+        "floor": 2,
+        "capacity": 60,
+        "hasProjector": true
+    },
+    {
+        "room": "B110",
+        "building": "Block B",
+        "floor": 1,
+        "capacity": 30,
+        "hasProjector": false
+    },
+    {
+        "room": "C301",
+        "building": "Block C",
+        "floor": 3,
+        "capacity": 120,
+        "hasProjector": true
+    },
+    {
+        "room": "D002",
+        "building": "Block D",
+        "floor": 0,
+        "capacity": 25,
+        "hasProjector": false
+    }
+]

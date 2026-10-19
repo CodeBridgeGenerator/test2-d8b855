@@ -1,0 +1,221 @@
+[
+{
+  "_id": {
+    "$oid": "694a1d8994f2f8e0f7916cb9"
+  },
+  "serviceName": "users",
+  "content": "<p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Users</strong></p><p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Overview:</strong></p><p><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Users module maintains the list of all users who are using the system. It allows Admins to view, manage, and access detailed information for each user, including their profiles, contact details, and addresses.</span></p><p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Steps to Manage Users:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Admin</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> can navigate to </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Users</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">The table displays </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">user names</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> and </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">email addresses</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Admins can </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">edit</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> or </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">delete</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> users directly from the table.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Click on any user record to open the </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Single User Page</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">, which displays Full user details, Associated </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">profiles, Phone number and Address.</strong></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:41:45.486Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:42:02.063Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a1dda94f2f8e0f79174f6"
+  },
+  "serviceName": "userAddresses",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">User Addresses</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">User Addresses module maintains the list of addresses associated with users. It allows Admins to add, view, and manage user address details efficiently.</span></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage User Addresses:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">User Addresses</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Click the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Add</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> button to create a new address record.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Enter the address details, including </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Street 1, Street 2, Postcode, City, State, Province and Country.</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Existing address records can be viewed, edited, or deleted as needed.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:43:06.349Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:43:06.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a1df394f2f8e0f7917789"
+  },
+  "serviceName": "userPhones",
+  "content": "<p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">User Phones</strong></p><p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Overview:</strong></p><p><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">User Phones module maintains the phone numbers associated with users. It allows Admins to add, view, and manage user contact numbers, specifying the type and dialing details for each.</span></p><p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Steps to Manage User Phones:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Admin</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> can navigate to </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">User Phones</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Click the </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Add</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> button to create a new phone record.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Enter the phone details, including </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">User, Country, Phone Number, Type</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> (Landline, Mobile, Fax, WA Only, SMS Only) and </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Dialing Number.</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Existing phone records can be </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">viewed, edited, or deleted</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> as needed.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:43:31.843Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:44:06.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a1e4a94f2f8e0f7918064"
+  },
+  "serviceName": "userInvites",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">User Invites</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">User Invites module allows Admins to manage invitation emails, verification codes, and email counters. It helps control signup attempts and ensures that users can retry email verification if the limit is reached.</span></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage User Invites:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">User Invites</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">The module displays </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Invitation Email, Verification Code and Mail Counter.</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">If the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Mail Counter</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> reaches 3, the user cannot attempt email verification for signup.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admins can </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">reset or reduce the mail counter</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> to allow the user to try signup and verification again.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:44:58.273Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:44:58.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a1e6794f2f8e0f791834b"
+  },
+  "serviceName": "roles",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Roles</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Roles define the type of user profiles in the system, such as </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin, Staff, External, Developer, or Super Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">. These roles determine access levels and permissions, and help categorize profile positions accordingly.</span></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage Roles:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Roles</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Click the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Add</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> button to create a new role and enter details such as </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Role Name</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> (e.g., Admin, Staff, External, Developer, Super Admin) and </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Description</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> (optional)</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Existing roles can be </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">edited</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> or </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">deleted</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> as needed.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">When assigning a profile, the system uses these roles to determine </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">access levels and permissions</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:45:27.104Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:45:27.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a1e8594f2f8e0f791864e"
+  },
+  "serviceName": "positions",
+  "content": "<p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Positions</strong></p><p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Overview:</strong></p><p><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Positions are defined based on </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Roles</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> and determine the specific job function of a user profile, such as </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Admin, Supervisor, Storekeeper, Technician, Vending Controller, Salesman, Incoming Machine Checker</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">, etc. These positions control the app’s sidebar and available features according to the user’s login role.</span></p><p><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Steps to Manage Positions:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Admin</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> can navigate to </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Positions</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Click the </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Add</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> button to create a new position and enter details such as </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Position Name</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> (e.g., Supervisor, Technician, Storekeeper) and </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">Role</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> (Associated Role).</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">Existing positions can be </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">edited</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> or </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">deleted</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> as needed.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"color: rgb(0, 0, 0); background-color: transparent;\">The system uses positions to </span><strong style=\"color: rgb(0, 0, 0); background-color: transparent;\">customize the sidebar and access permissions</strong><span style=\"color: rgb(0, 0, 0); background-color: transparent;\"> based on the user’s login role.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:45:57.375Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:53:15.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a1ecf94f2f8e0f7918dcd"
+  },
+  "serviceName": "profiles",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Profiles</strong></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Profiles maintain the list of user profiles in the system. A single user can have </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">multiple profiles</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">. Profiles store detailed information about users, including their role, position, and contact details.</span></p><p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage Profiles:</strong></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Profiles</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Click the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Add</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> button to create a new profile and enter details such as </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Name, Bio, Company, Branch, Phone Number, Address, User</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> (associated user), </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Role and Position.</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Existing profiles can be </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">edited</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> or </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">deleted</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> as needed.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Profiles allow the system to manage multiple roles and positions per user and provide detailed user information for administrative purposes.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "updatedBy": {
+    "$oid": "681d8d2bf3a2818d4b95c5c3"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T04:47:12.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T04:47:12.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a020f70109a2b6eb922f6a4"
+  },
+  "serviceName": "departments",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Departments are defined under Companies and help organize employees, profiles, and operational structures within the system. Departments are used to categorize different business functions such as HR, Technical, Operations, Finance, Warehouse, and Administration.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">These departments help the system manage company structures, profile assignments, and organizational hierarchy efficiently.</span></p><p><br></p><p><br></p><h3><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage Departments:</strong></h3><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Departments</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Click the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Add</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> button to create a new department and enter details such as: </span>Company (Associated Company), Department Name , Department Code, Is Default (Default department selection)</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Existing department records can be </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">viewed</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">, </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">edited</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">, or </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">deleted</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> as needed.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admins can use the table features to: Search departments using keyword search:  Filter records, Hide or show columns, Export department records,  Duplicate department records,  Send messages to selected records</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">The system uses department information to organize company structures and manage profile assignments across the application.</span></li></ol>",
+  "createdBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "updatedBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "createdAt": {
+    "$date": "2026-05-11T17:18:40.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-11T17:36:02.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0215f6109a2b6eb922f761"
+  },
+  "serviceName": "sections",
+  "content": "<p><strong>Overview:</strong></p><p> Sections are used to organize and categorize smaller operational or functional groups within the system. They help manage structured classifications for different workflows, teams, or business operations.</p><p>Sections allow Admins to maintain organized records with section names and descriptions for better system management and operational clarity.</p><p><br></p><h3><strong>Steps to Manage Sections:</strong></h3><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong>Admin</strong> can navigate to <strong>Sections</strong> from the menu.</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Click the <strong>Add</strong> button to create a new section and enter details such as: <strong>Section Name, </strong> <strong>Description</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Existing section records can be <strong>viewed</strong>, <strong>edited</strong>, or <strong>deleted</strong> as needed.</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>Admins can use the table features to: Search sections using keyword search, Filter records, Hide or show columns, Export section records,  Duplicate section records, Copy section details, Send messages to selected records</li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span>The system uses sections to help organize operational structures and maintain better categorization across the application.</li></ol><p><br></p>",
+  "createdBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "updatedBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "createdAt": {
+    "$date": "2026-05-11T17:46:30.264Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-11T17:46:30.264Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a021786109a2b6eb922f9a9"
+  },
+  "serviceName": "companyAddresses",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Company Addresses module maintains the address information associated with companies in the system. It allows Admins to store and manage company location details such as street addresses, city, state, province, country, and postcode.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">These address records help maintain proper company information and support organizational and operational management within the application.</span></p><h3><br></h3><h3><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage Company Addresses:</strong></h3><p><br></p><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Company Addresses</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Click the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Add</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> button to create a new company address and enter details such as: </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Company, Street 1, Street 2, Postcode, City, State, Province, Country, Is Default</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Existing company address records can be </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">viewed, edited,</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> or </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">deleted</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> as needed.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admins can use the table features to: Search company addresses using keyword search, Filter records, Hide or show columns, Export address records, Duplicate address records, Copy address details, and Send messages to selected records.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">The system uses company address information to maintain accurate company location details and support organizational management across the application.</span></li></ol><p><br></p>",
+  "createdBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "updatedBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "createdAt": {
+    "$date": "2026-05-11T17:53:10.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-11T17:53:10.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a021aa2109a2b6eb922fa0f"
+  },
+  "serviceName": "permissionServices",
+  "content": "<p><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Overview:</strong></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Permissions module manages access control for different services within the system. It allows Admins to define create, read, update, delete, import, export, and seeder permissions for Roles, Positions, and Profiles.</span></p><p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">These permissions help control user access levels and determine which features and modules are accessible within the application.</span></p><p><br></p><h3><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Steps to Manage Permissions:</strong></h3><ol><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admin</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> can navigate to </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Permissions</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> from the menu.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Click the </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Add</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> button to create a new permission record and enter details such as: </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Service, Create Permission, Read Permission, Update Permission, Delete Permission, Import Permission, Export Permission, Seeder Permission, Role, Position, Profile, User</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Permission records are organized into separate tabs for: </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">Roles, Positions, and Profiles</strong></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Existing permission records can be </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">viewed, edited,</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> or </span><strong style=\"background-color: transparent; color: rgb(0, 0, 0);\">deleted</strong><span style=\"background-color: transparent; color: rgb(0, 0, 0);\"> as needed.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Admins can use the table features to: Search permission records using keyword search, Filter records, Hide or show columns, and Group permissions based on Roles, Positions, or Profiles.</span></li><li data-list=\"ordered\"><span class=\"ql-ui\" contenteditable=\"false\"></span><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">The system uses permissions to control user access, sidebar visibility, and feature availability across the application.</span></li></ol><p><br></p>",
+  "createdBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "updatedBy": {
+    "$oid": "681d8f64547a7047806e8204"
+  },
+  "createdAt": {
+    "$date": "2026-05-11T18:06:26.109Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-11T18:06:26.109Z"
+  },
+  "__v": 0
+}]

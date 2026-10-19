@@ -1,0 +1,11 @@
+:root {
+    --cb-font: Inter, sans-serif;
+    --cb-size: 14px;
+    --font-family: Inter, sans-serif;
+}
+
+body,
+.p-component {
+    font-family: var(--cb-font);
+    font-size: var(--cb-size);
+}
